@@ -21,6 +21,7 @@ const AddTodo: React.FC = () => {
         className="form-control"
         placeholder="Add a new task..."
         value={title}
+        required={true}
         onChange={(e) => setTitle(e.target.value)}
       />
       <button className="btn btn-primary ms-2" type="submit">
