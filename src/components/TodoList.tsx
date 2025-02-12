@@ -1,7 +1,7 @@
-import React, {useEffect, useState } from "react";
+import React, {useEffect } from "react";
 
 
-import { fetchTodos, toggleComplete, deleteTodo } from "../store/todoSlice";
+import { fetchTodos } from "../store/todoSlice";
 
 
 import TodoItem from "./TodoItem";

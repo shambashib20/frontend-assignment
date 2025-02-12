@@ -2,7 +2,7 @@
 import './App.css'
 import AddTodo from './components/AddTodo'
 import Filters from './components/Filters'
-import TodoItem from './components/TodoItem';
+
 import TodoList from './components/TodoList'
 import "bootstrap/dist/css/bootstrap.min.css";
 
